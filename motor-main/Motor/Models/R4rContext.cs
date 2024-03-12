@@ -40,7 +40,7 @@ public partial class R4rContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     //=> optionsBuilder.UseNpgsql("Host=containers-us-west-15.railway.app;Port=6613;Database=railway;Username=postgres;Password=P1uIYcTfSal2qMZqwZzX");
-    => optionsBuilder.UseNpgsql("Host=localhost;Database=do_an_vat_ff;Port=5432;User Id=postgres;Password=2444");
+    => optionsBuilder.UseNpgsql("Host=p-52l4pb6f50.pg.biganimal.io;Database=ShopMotor;Port=5432;User Id=edb_admin;Password=Taohanmay446@");
 
 protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
