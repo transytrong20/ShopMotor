@@ -10,6 +10,8 @@ const openDrawer = (data: any) => {
 defineExpose({
   openDrawer,
 })
+
+
 </script>
 <template>
   <el-drawer v-model="drawer" class="order-drawer" title="Chi tiết đơn hàng" style="min-width: 400px">
